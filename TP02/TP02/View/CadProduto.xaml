@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.View.CadProduto">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="entDescricao" Placeholder="Descrição"/>
+            <Entry x:Name="entCategoria" Placeholder="Categoria"/>
+            <Entry x:Name="entQuantidade" Placeholder="Quantidade" Keyboard="Numeric"/>
+            <Entry x:Name="entPreco" Placeholder="Preço" Keyboard="Numeric"/>
+
+            <Button Text="Salvar"></Button>
+
+            <Button Text="Lista de Produtos"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

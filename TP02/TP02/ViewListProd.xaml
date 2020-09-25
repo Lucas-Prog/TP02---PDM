@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.ViewListProd">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<ListView ItemsSource="{Binding listaProdutos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding Descicao}"/>
+                            <Label Text="{Binding Categoria}"/>
+                            <Label Text="{Binding Quantidade}"/>
+                            <Label Text="{Binding Preço}"/>
+                        </ViewCell>
+                    </DataTemplate>                    
+                </ListView.ItemTemplate>
+            </ListView>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

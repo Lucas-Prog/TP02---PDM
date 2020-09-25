@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.View.Home">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Entry x:Name="entNome" Placeholder="Nome"/>
+            <Entry x:Name="entIdade" Placeholder="idade" Keyboard="Numeric"/>
+            <Entry x:Name="entProfissao" Placeholder="Profissão"/>
+            <Entry x:Name="entPais" Placeholder="Pais"/>
+
+            <Button Text="Salvar" Clicked="NovaPagina"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
